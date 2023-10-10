@@ -1,105 +1,21 @@
-amqp==5.1.1
-argon2-cffi==21.3.0
-argon2-cffi-bindings==21.2.0
-asgiref @ file:///C:/ci_311/asgiref_1676448296195/work
-asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-bcrypt==4.0.1
-beautifulsoup4 @ file:///C:/ci_311/beautifulsoup4_1676424523303/work
-billiard==3.6.4.0
-CacheControl==0.12.11
-cachetools==5.3.0
-celery==5.2.7
-certifi @ file:///C:/ci_311/certifi_1676421629969/work/certifi
-cffi==1.15.1
-charset-normalizer==3.1.0
-click==8.1.3
-click-didyoumean==0.3.0
-click-plugins==1.1.1
-click-repl==0.2.0
-colorama @ file:///C:/ci_311/colorama_1676422310965/work
-cryptography==40.0.2
-debugpy @ file:///C:/ci_311/debugpy_1676426137692/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
-dj-database-url==2.1.0
-Django @ file:///tmp/build/80754af9/django_1625585912945/work
-django-cron==0.6.0
-django-crontab==0.7.1
-django-heroku==0.3.1
-djangorestframework==3.14.0
-executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
-Faker==15.3.1
-firebase==4.0.1
-firebase-admin==6.1.0
-gcloud==0.18.3
-google-api-core==2.11.0
-google-api-python-client==2.86.0
-google-auth==2.17.3
-google-auth-httplib2==0.1.0
-google-cloud-core==2.3.2
-google-cloud-firestore==2.11.1
-google-cloud-storage==2.9.0
-google-crc32c==1.5.0
-google-resumable-media==2.5.0
-googleapis-common-protos==1.59.0
-grpcio==1.54.0
-grpcio-status==1.54.0
-gunicorn==21.2.0
-heroku==0.1.4
-httplib2==0.22.0
-idna==3.4
-ipykernel @ file:///D:/bld/ipykernel_1655369313836/work
-ipython @ file:///C:/b/abs_d1yx5tjhli/croot/ipython_1680701887259/work
-jedi @ file:///C:/ci_311/jedi_1679427407646/work
-jupyter_client @ file:///C:/b/abs_059idvdagk/croot/jupyter_client_1680171872444/work
-jupyter_core @ file:///C:/b/abs_9d0ttho3bs/croot/jupyter_core_1679906581955/work
-jws==0.1.3
-kombu==5.2.4
-lxml @ file:///C:/b/abs_c2bg6ck92l/croot/lxml_1679646459966/work
-matplotlib-inline @ file:///C:/ci_311/matplotlib-inline_1676425798036/work
-msgpack==1.0.5
-nest-asyncio @ file:///C:/ci_311/nest-asyncio_1676423519896/work
-oauth2client==4.1.3
-packaging @ file:///C:/b/abs_ed_kb9w6g4/croot/packaging_1678965418855/work
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==9.5.0
-platformdirs @ file:///C:/ci_311/platformdirs_1676422658103/work
-prompt-toolkit @ file:///C:/ci_311/prompt-toolkit_1676425940920/work
-proto-plus==1.22.2
-protobuf==4.23.0rc3
-psutil @ file:///C:/ci_311_rebuilds/psutil_1679005906571/work
-psycopg2 @ file:///C:/ci_311/psycopg2_1676454061167/work
-pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
-pyasn1==0.5.0
-pyasn1-modules==0.3.0
-pycparser==2.21
-pycryptodome==3.17
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-PyJWT==2.6.0
-pyngrok==6.0.0
-pyparsing==3.0.9
-Pyrebase4==4.6.0
-python-dateutil==1.5
-python-jwt==2.0.1
-pytz @ file:///C:/ci_311/pytz_1676427070848/work
-pywin32==305.1
-PyYAML==6.0
-pyzmq @ file:///C:/b/abs_8b16zbmf46/croot/pyzmq_1682697651374/work
-redis==4.5.5
-requests==2.30.0
-requests-toolbelt==1.0.0
-rsa==4.9
-schedule==1.2.0
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-soupsieve @ file:///C:/b/abs_a989exj3q6/croot/soupsieve_1680518492466/work
-sqlparse @ file:///C:/ci_311/sqlparse_1676456541280/work
-stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
-tornado @ file:///C:/ci_311/tornado_1676423689414/work
-traitlets @ file:///C:/ci_311/traitlets_1676423290727/work
-typing_extensions==4.8.0
-uritemplate==4.1.1
-urllib3==2.0.2
-vine==5.0.0
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-whitenoise==6.5.0
+appdirs==1.4.4
+asgiref==3.3.1
+astroid==2.5.3
+colorama==0.4.4
+distlib==0.3.1
+Django
+filelock==3.0.12
+isort==5.8.0
+lazy-object-proxy==1.6.0
+mccabe==0.6.1
+Pillow
+pylint==2.7.4
+pytz==2021.1
+six==1.15.0
+sqlparse==0.4.1
+toml==0.10.2
+virtualenv==20.4.3
+wrapt==1.12.1
+gunicorn
+celery
+django-crontab
