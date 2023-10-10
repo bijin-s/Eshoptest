@@ -19,3 +19,8 @@ wrapt==1.12.1
 gunicorn
 celery
 django-crontab
+dj_database_url
+whitenoise
+psycopg2
+django-IS_HEROKU_APPasgiref
+setuptools
