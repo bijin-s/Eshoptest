@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load cart %}
+{% load custom_filter %}
+<<h1>wishlist</h1>
+<div class="container">
+   <div class="border rounded p-4 m-4">
+        <p class="display-4 pl-4 ml-4">Your Wishlist</p>
+        <hr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Sno.</th>
+
+                    <th>Product</th>
+
+                    <th>Price</th>
+                    <th>Current Price</th>
+                    <th>url</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                {% for Wishlist in wishlist %}
+                <tr>
+                    <td>{{forloop.counter}}</td>
+                    <td>{{Wishlist.product_name}}</td>
+                    <td>{{Wishlist.price}}</td>
+                    <td>{{Wishlist.current_price}}</td>
+                    <td>{{Wishlist.product_url}}</td>
+
+                </tr>
+
+                {% endfor %}
+
+            </tbody>
+
+        </table>
+
+   </div>
+</div>
+
+
+
+<div class="container">
+<a href="{% url 'addwishlist' %}">addwishlist</a>
+</div>
+{% endblock %}
